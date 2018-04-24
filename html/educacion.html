@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="author" content="Edison Salinas Camacho">
+  <meta name="description" content="Hoja de Vida Edison Salinas Camacho">
+  <title>Curriculum Vitae Edison Salinas Camacho</title>
+</head>
+<body>
+
+<!-- Insercíon de logo Edison Inc en formato svg --> 
+  
+   <svg>
+	   <img src="../images/Inc.svg" alt="">
+   </svg>
+
+<!-- Cabecera con datos basicos -->
+
+	<h1><strong>Curriculum Vitae</strong></h1>
+	 <h3>Nombre: <em>Edison Salinas Camacho</em></h3>
+	 <h3>Ocupacíon: <em>Estudiante Next U desarrollo Web</em></h3>
+	 <h3>Nacionalidad: <em>Colombiana</em></h3>
+	 <h3>Ciudad Nacimiento: <em>Bogota D.C</em></h3>
+	 <h3>Fecha Nacimiento: <em>19 de septiembre de 1980</em></h3>
+	 
+	  <hr style="border-color:blue;" style="width:75%;border:2px;">
+	  
+<!-- Enlaces a paginas complementarias -->
+	 
+	 <h2><strong>Enlaces de Interes</strong></h2>
+	  <ul>
+	  		<li><a href="../html/index.html">Pagina inicio</a></li>
+  			<li><a href="../html/educacion.html">Pagina educacion personal</a></li>
+  			<li><a href="../html/experiencia.html">Pagina experiencia laboral y profesional</a></li>
+	  </ul>
+	  
+<!-- Utilizacion de tablas HTML para muestra de informacion  -->
+	  
+	  <hr style="border-color:blue;" style="width:75%;border:2px;">
+	  
+	 <h1><strong>Educacíon</strong></h1>
+	 
+	
+	 <table border="1", cellpadding="10", cellspacing="0">
+    <thead>
+  <tr>
+    <th>Año</th>
+    <th>institucíon</th>
+    <th>Carrera o estudio</th>
+    <th>Lugar</th>
+    <th>¿Cúlmino?</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td><CENTER>1991</CENTER></td>
+    <td>Escuela Fe y Alegria</td>
+    <td>Primaria</td>
+    <td><center>Bogota D.E</center></td>
+    <td><center>Sí</center> </td>
+  </tr>
+  <tr>
+    <td><CENTER>1998</CENTER></td>
+    <td>IED Florentino González</td>
+    <td>Bachillerato</td>
+    <td><center>Bogota D.C</center></td>
+    <td><center>Sí</center> </td>
+  </tr>
+  <tr>
+    <td><CENTER>2007</CENTER></td>
+    <td>Uniminuto</td>
+    <td>Tecnologia en Informática</td>
+    <td><center>Bogota D.C</center></td>
+    <td><center>Sí</center> </td>
+  </tr>
+  </tbody>
+</table>
+<br>
+	  
+<!-- Utilizacion de formularios para captura de informacion personal  -->
+
+<hr style="border-color:blue;" style="width:75%;border:2px;">
+
+<h2><strong>Agregar estudio</strong></h2>
+<form action="">
+		<p>
+			<label for="recommend"><strong>Año:</strong></label>
+			<br>
+			<select name="recommend">
+				<option value="1">2010</option>
+				<option value="1">2011</option>
+				<option value="1">2012</option>
+				<option value="1">2013</option>
+				<option value="1">2014</option>
+				<option value="1">2015</option>
+				<option value="1">2016</option>
+				<option value="1">2017</option>
+				<option value="1">2018</option>
+			</select>
+		</p>
+		<p>
+			<label for="email" ><strong>Institucíon:</strong></label>
+			<br>
+			<input type="text" name="institucion" placeholder="Ej: Next_U" required>
+		</p>
+		<p>
+			<label for="email" ><strong>Lugar:</strong></label>
+			<br>
+			<input type="text" name="lugar" placeholder="Ej: Bogota D.C" required>
+		</p>
+		<p>
+			<label for="culmino"><strong>¿Cúlmino?</strong></label>
+			
+			<input type="radio" name="culmino"> <strong>SI</strong>
+			
+			<input type="radio" name="culmino"> <strong>NO</strong>
+		</p>
+		<p>
+			<input type="submit" value="Enviar">
+		</p>
+</form>	
+</body>
+</html>
